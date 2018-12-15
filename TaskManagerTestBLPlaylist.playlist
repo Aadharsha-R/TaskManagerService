@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="TaskManager.Tests.BusinessLib.TestTaskManagerBL.TestGetAll" /><Add Test="TaskManager.Tests.BusinessLib.TestTaskManagerBL.TestAddTask" /><Add Test="TaskManager.Tests.BusinessLib.TestTaskManagerBL.TestGetById" /><Add Test="TaskManager.Tests.BusinessLib.TestTaskManagerBL.TestGetByName" /></Playlist>

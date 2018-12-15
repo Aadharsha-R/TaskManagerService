@@ -73,5 +73,14 @@ namespace TaskManager.BusinessLib
             }
 
         }
+
+        public Task GetByName(string Name)
+        {
+            using (TaskManagerContext db = new TaskManagerContext())
+            {
+                return db.Tasks.SingleOrDefault(k => k.TaskName == Name);
+            }
+
+        }
     }
 }
